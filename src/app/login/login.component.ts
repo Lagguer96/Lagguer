@@ -5,11 +5,13 @@ import { AuthService } from '../auth.service';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+  styleUrls: ['./login.component.css'],
+  
 })
 export class LoginComponent implements OnInit {
-  loginForm: FormGroup;
+  loginForm!: FormGroup ;
   submitted = false;
+error: any;
 
   // constructor(private authService: AuthService) { }
   constructor(private formBuilder: FormBuilder) { }
