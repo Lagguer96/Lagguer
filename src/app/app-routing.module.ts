@@ -6,7 +6,7 @@ import { MaintenancePageComponent } from './maintenance-page/maintenance-page.co
 import { SidebarViewComponent } from './sidebar-view/sidebar-view.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/pagina-principal', pathMatch: 'full' },
+  // { path: '', redirectTo: '/pagina-principal', pathMatch: 'full' },
   { path: 'pagina-principal', component: PaginaPrincipalComponent },
   { path: 'information', component: InformationComponent },
   { path: 'siderbar-view', component: SidebarViewComponent },

@@ -1,109 +1,10 @@
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Estamos trabajando</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #BFB2AF;
-      text-align: center;
-      padding-top: 100px;
-    }
+<title>Estamos trabajando</title>
 
-    h1 {
-      font-size: 50px;
-      color: #ffffff;
-    }
-
-    p {
-      font-size: 20px;
-      color: #ffffff;
-    }
-    
-    .title_1 {
-        
-        border-radius: 5%;
-        box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
-        background-color: #6BA7FF;
-        
-    }
-    
-    .title_describe {
-        border-radius: 5%;
-        position: relative;
-        box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
-        background-color: #6BA7FF;
-    }
-    
-    article {
-        border-radius: 5%;
-        position: relative;
-        transition: all .3s ease;
-    }
-    
-    article img:first-child {
-        box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
-        border-radius: 5%;
-        object-fit: cover;
-        width: 100%;
-    }
-    
-    article img:last-child {
-        position: absolute;
-        width: 600px;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-        transform: translateY(25%);
-        transition: .3s ease;
-        opacity: 0;
-    }
-    
-    article:hover {
-        transform:
-            perspective(250px)
-            rotateX(10deg)
-            translateY(-5%)
-            translateZ(0);
-    }
-    
-    article::hover {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        height: 100%;
-        width: 100%;
-        background-image:
-        linear-gradient(
-            to bottom,
-            transparent 10%,
-            rgba(0, 0, 0, 0.5) 50%,
-            rgba(0, 0, 0) 95%
-        );
-        opacity: 0;
-        transition: .3s ease;
-    }
-    
-    article:hover::before {
-        opacity: 1;
-    }
-    
-    article:hover img:last-child {
-        opacity: 1;
-        transform: translateY(10%);
-    }
-    
-
-  </style>
-</head>
 <body>
-
     <div class=title_1>
         <article>
-            <img src='/src/assets/Recursos_Imagenes/Design_fondo_IA.png' alt='Fondo'>
-            <img src='/src/assets/Recursos_Logo/LagguerW.svg' alt='Logo'>
+            <img src='../../assets/Recursos_Imagenes/Design_fondo_IA.png' alt='Fondo'>
+            <img src='../../assets/Recursos_Logo/LagguerW.svg' alt='Logo'>
         </article>
         <div class=title_describe>
             <h1>Estamos trabajando en esta página</h1>
@@ -112,4 +13,3 @@
     </div>
     
 </body>
-</html>
