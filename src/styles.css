@@ -1,1 +1,34 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #BFB2AF;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+p {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.title_1 {
+      
+    border-radius: 5%;
+    box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
+    background-color: #6BA7FF;
+      
+}
+  
+.title_describe {
+    border-radius: 5%;
+    position: relative;
+    box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
+    background-color: #6BA7FF;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
