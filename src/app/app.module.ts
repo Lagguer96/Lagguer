@@ -7,6 +7,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InformationComponent } from './information/information.component';
 import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.component';
+import { MaintenancePageComponent } from './maintenance-page/maintenance-page.component';
+import { SidebarViewComponent } from './sidebar-view/sidebar-view.component';
 
 
 @NgModule({
@@ -14,6 +16,8 @@ import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.co
     AppComponent,
     InformationComponent,
     PaginaPrincipalComponent,
+    MaintenancePageComponent,
+    SidebarViewComponent,
   ],
   imports: [
     BrowserModule,
