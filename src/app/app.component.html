@@ -13,42 +13,46 @@
     }
 
     h1 {
-      font-size: 36px;
-      color: #333;
+      font-size: 50px;
+      color: #ffffff;
     }
 
     p {
-      font-size: 18px;
-      color: #666;
+      font-size: 20px;
+      color: #ffffff;
     }
     
     .title_1 {
+        
+        border-radius: 5%;
         box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
         background-color: #6BA7FF;
         
     }
     
     .title_describe {
+        border-radius: 5%;
+        position: relative;
         box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
         background-color: #6BA7FF;
     }
     
     article {
+        border-radius: 5%;
         position: relative;
-        width: 250px;
         transition: all .3s ease;
     }
     
     article img:first-child {
         box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
-        border-radius: 4px;
+        border-radius: 5%;
         object-fit: cover;
         width: 100%;
     }
     
     article img:last-child {
         position: absolute;
-        width: 200px;
+        width: 600px;
         bottom: 0;
         left: 0;
         right: 0;
@@ -92,46 +96,21 @@
         transform: translateY(10%);
     }
     
-    .pager {
-      display: flex;
-      list-style: none;
-      padding: 0;
-    }
-    
-    .pager li {
-      margin-right: 5px;
-    }
-    
-    .pager a {
-      display: inline-block;
-      padding: 5px 10px;
-      text-decoration: none;
-      background-color: #f2f2f2;
-      color: #333;
-      border: 1px solid #ccc;
-      border-radius: 3px;
-    }
-    
-    .pager a.active {
-      background-color: #333;
-      color: #fff;
-    }
-    
 
   </style>
 </head>
 <body>
 
     <div class=title_1>
-        <img src='/src/assets/Recursos_Imagenes/Design_fondo_IA.png' alt='Fondo'>
         <article>
-            
+            <img src='/src/assets/Recursos_Imagenes/Design_fondo_IA.png' alt='Fondo'>
             <img src='/src/assets/Recursos_Logo/LagguerW.svg' alt='Logo'>
         </article>
+        <div class=title_describe>
+            <h1>Estamos trabajando en esta página</h1>
+            <p>Disculpa las molestias. ¡Volveremos pronto!</p>
+        </div>
     </div>
-    <div class=title_describe>
-        <h1>Estamos trabajando en esta página</h1>
-        <p>Disculpa las molestias. ¡Volveremos pronto!</p>
-    </div>
+    
 </body>
 </html>
