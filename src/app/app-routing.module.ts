@@ -5,8 +5,8 @@ import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.co
 //import { MaintenancePageComponent } from './maintenance-page/maintenance-page.component';
 
 const routes: Routes = [
-  { path: 'information', component: InformationComponent },
   { path: 'pagina-principal', component: PaginaPrincipalComponent },
+  { path: 'information', component: InformationComponent },
   
 ];
 
