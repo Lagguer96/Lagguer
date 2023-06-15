@@ -1,16 +1,18 @@
 .title_1 {
-        
+    max-width: var(--largest-width, 90%);
     border-radius: 5%;
-    box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
-    background-color: #6BA7FF;
-    
+    box-shadow: 0 60px 60px -60px rgba(9,9,121,1);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .title_describe {
+    width: 50%;
     border-radius: 5%;
     position: relative;
-    box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
-    background-color: #6BA7FF;
+    box-shadow: 0 60px 60px -60px rgba(9,9,121,1);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 article {
@@ -23,7 +25,8 @@ article img:first-child {
     box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
     border-radius: 5%;
     object-fit: cover;
-    width: 100%;
+    width: 50%;
+    
 }
   
 article img:last-child {
