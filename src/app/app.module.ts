@@ -5,10 +5,10 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { InformationComponent } from './information/information.component';
-import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.component';
-import { MaintenancePageComponent } from './maintenance-page/maintenance-page.component';
-import { SidebarViewComponent } from './sidebar-view/sidebar-view.component';
+import { InformationComponent } from './Components/information/information.component';
+import { PaginaPrincipalComponent } from './Components/pagina-principal/pagina-principal.component';
+import { MaintenancePageComponent } from './Components/maintenance-page/maintenance-page.component';
+import { SidebarViewComponent } from './Components/sidebar-view/sidebar-view.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
@@ -46,4 +46,6 @@ import { MatMenuModule } from '@angular/material/menu';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+}
