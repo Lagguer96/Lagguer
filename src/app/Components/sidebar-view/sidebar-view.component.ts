@@ -1,6 +1,16 @@
-import { Component, inject } from '@angular/core';
+import { Component, NgModule, inject } from '@angular/core';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Observable, map } from 'rxjs';
+import { MatSidenavModule } from '@angular/material/sidenav';
+
+@NgModule({
+  imports: [
+    // ... otros imports ...
+    MatSidenavModule,
+  ],
+  // ... otros configuraciones ...
+})
+export class AppModule { }
 
 @Component({
   selector: 'app-sidebar-view',
@@ -14,4 +24,11 @@ export class SidebarViewComponent {
     );
 
   constructor(private breakpointObserver: BreakpointObserver) { }
+
+  isSidenavOpen = true; // Inicialmente, la barra lateral está abierta
+
+  // Método para abrir o cerrar la barra lateral
+  toggleSidenav() {
+    this.isSidenavOpen = !this.isSidenavOpen;
+  }
 }
