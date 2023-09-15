@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    margin: 12px;
+  }
+  
+  #boundary {
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    border: 2px dashed red;
+  }
+  
+  #reference {
+    width: 100px;
+    height: 100px;
+    border: 2px dashed black;
+    margin: 50px;
+  }
+  
+  #floating {
+    position: absolute;
+    background: gray;
+    padding: 0.5rem;
+    color: white;
+    overflow: auto;
+    box-sizing: border-box;
+  }
+  
