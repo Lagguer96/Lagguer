@@ -18,6 +18,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
+import { HomeComponent } from './Components/home/home.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { MatMenuModule } from '@angular/material/menu';
     PaginaPrincipalComponent,
     MaintenancePageComponent,
     SidebarViewComponent,
+    HomeComponent,
     
   ],
   imports: [

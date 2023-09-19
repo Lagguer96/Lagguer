@@ -25,7 +25,7 @@ export class SidebarViewComponent {
 
   constructor(private breakpointObserver: BreakpointObserver) { }
 
-  isSidenavOpen = true; // Inicialmente, la barra lateral está abierta
+  isSidenavOpen = false; // Inicialmente, la barra lateral está abierta
 
   // Método para abrir o cerrar la barra lateral
   toggleSidenav() {

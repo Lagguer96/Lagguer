@@ -1,22 +1,12 @@
-.grid-container {
-  margin: 20px;
-  
+/* Estilos horizontal */
+.instagram-photos-container {
+  display: flex; /* Utiliza un contenedor flexible (flexbox) */
+  flex-direction: row; /* Disposición horizontal */
+  gap: 10px; /* Espacio entre las fotos */
 }
 
-.dashboard-card {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  right: 15px;
-  bottom: 15px;
-}
-
-.more-button {
-  position: absolute;
-  top: 5px;
-  right: 10px;
-}
-
-.dashboard-card-content {
-  text-align: center;
+.instagram-media {
+  /* Estilos adicionales para cada bloque de código de inserción */
+  width: 300px; /* Ancho fijo para cada foto (ajusta según tus necesidades) */
+  height: auto; /* Altura automática para mantener la proporción */
 }
