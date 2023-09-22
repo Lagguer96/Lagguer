@@ -5,8 +5,8 @@ import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-pagina-principal',
-  templateUrl: './pagina-principal.component.html',
-  styleUrls: ['./pagina-principal.component.css']
+  templateUrl: './principal-format.component.html',
+  styleUrls: ['./principal-format.component.css']
 })
 export class PaginaPrincipalComponent {
 

@@ -6,7 +6,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 
-import { PaginaPrincipalComponent } from './pagina-principal.component';
+import { PaginaPrincipalComponent } from './principal-format.component';
 
 describe('PaginaPrincipalComponent', () => {
   let component: PaginaPrincipalComponent;

@@ -6,7 +6,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InformationComponent } from './Components/information/information.component';
-import { PaginaPrincipalComponent } from './Components/pagina-principal/pagina-principal.component';
+import { PaginaPrincipalComponent } from './Components/principal-format/principal-format.component';
 import { MaintenancePageComponent } from './Components/maintenance-page/maintenance-page.component';
 import { SidebarViewComponent } from './Components/sidebar-view/sidebar-view.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -19,6 +19,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { HomeComponent } from './Components/home/home.component';
+import { InstagramViewComponent } from './Components/instagram-view/instagram-view.component';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { HomeComponent } from './Components/home/home.component';
     MaintenancePageComponent,
     SidebarViewComponent,
     HomeComponent,
+    InstagramViewComponent,
     
   ],
   imports: [
