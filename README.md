@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Help Branch
+
+add: Se generan una nuevas funcionalidades.
+fix: Se realizan correción de Bugs.
+refactor: Refactorización de funcionalidades y mejoras.
+delete: Se eliminan funciones o archivos.
+docs: Se generar cambios en la documentación.
+hotfix: Esta tipo se utiliza cuando se quiere hacer un contrato con el diablo jaja, practicamente es cuando queremos meter cambios directamente a la rama de producción.
