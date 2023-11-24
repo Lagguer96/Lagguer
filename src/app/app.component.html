@@ -2,14 +2,55 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <base href="../">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://kit.fontawesome.com/yourcode.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
         <title>Home</title>
-        
+        <style>
+            body, html, .container-fluid, .row, .col-md-12, .col-md-6, .col-md-4, .col-md-3, .col-md-2, .col-md-1 {
+            margin: 0;
+            padding: 0;
+        }
+        </style>
     </head>
-    
     <body>
-        <app-pagina-principal></app-pagina-principal>
         <app-sidebar-view></app-sidebar-view>
+        <app-header></app-header>
         <router-outlet></router-outlet>
+        <app-footer></app-footer>
+        <style>
+            .custom-sidenav {
+            width: 200px;
+            }
+            .sidenav-container {
+            height: 100%;
+            }
+            .horizontal-nav-list {
+            display: flex;
+            flex-direction: column;
+            }
+            .horizontal-nav-list a {
+            display: block;
+            }
+            .horizontal-toolbar {
+            display: flex;
+            justify-content: space-between;
+            }
+            .sidenav-toggle-button {
+            margin-left: 10px;
+            }
+            .jumbotron {
+            padding: 2rem 1rem;
+            margin-bottom: 2rem;
+            background-color: #e9ecef;
+            border-radius: 0.3rem;
+            }
+            .card {
+            margin-bottom: 1rem;
+            }
+        </style>
     </body>
 </html>

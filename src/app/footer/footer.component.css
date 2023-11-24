@@ -1,0 +1,12 @@
+.card {
+    color: #62668a;
+    letter-spacing: -.01em;
+    font-family: Plus Jakarta Display, sans-serif;
+    font-size: 16px;
+    line-height: 1.688em;
+    box-sizing: border-box;
+    display: block;
+    border-top: 1px solid #e7e8f1;
+    padding-bottom: 40px;
+    padding-top: 60px;
+}

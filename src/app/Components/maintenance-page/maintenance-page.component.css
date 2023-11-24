@@ -9,7 +9,7 @@ body {
   .h1 {
     font-size: 50px;
     color: #ffffff;
-  }
+    }
 
   p {
     font-size: 20px;
@@ -23,15 +23,25 @@ body {
       background: rgb(2,0,36);
       background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
       position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
   }
 
   .title_describe {
       width: 50%;
       border-radius: 5%;
       position: relative;
-      box-shadow: 0 60px 60px -60px rgba(9,9,121,1);
+      box-shadow: 0 50px 50px -50px rgba(9,9,121,1);
       background: rgb(2,0,36);
       background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        position: absolute;
+            left: 50%;
+            top: 15%;
+            transform: translate(-50%, -50%);
+        color: #ffffff;
+
   }
 
   article {
