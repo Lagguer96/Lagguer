@@ -5,11 +5,12 @@
   right: 0;
   bottom: auto;
   z-index: 1000;
+  height: 100%;
 }
 
 .sidenav {
   
-  width: auto;
+  width: 250px;
   border-radius: 5px;
   /* background-color: rgba(2,0,36,1); */
 }
@@ -49,4 +50,34 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  color: white;
+}
+
+horizontal-nav-list a {
+  color: white;
+  text-decoration: none;
+}
+
+.horizontal-toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+mat-toolbar {
+  background: #3f51b5; /* Example toolbar background color */
+  color: white;
+}
+
+.page-button {
+  background-color: #ff4081; /* Example button background color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.page-button:hover {
+  background-color: #f50057; /* Example hover color */
 }

@@ -18,17 +18,20 @@ export class AppModule { }
   styleUrls: ['./sidebar-view.component.css']
 })
 export class SidebarViewComponent {
-  isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
-    .pipe(
-      map(result => result.matches)
-    );
+  isSidenavOpen = false;
 
-  constructor(private breakpointObserver: BreakpointObserver) { }
-
-  isSidenavOpen = false; // Inicialmente, la barra lateral está abierta
-
-  // Método para abrir o cerrar la barra lateral
   toggleSidenav() {
     this.isSidenavOpen = !this.isSidenavOpen;
+
+  //isSidenavOpen = false; // Inicialmente, la barra lateral está abierta
+
+  // Método para abrir o cerrar la barra lateral
+  //toggleSidenav() {
+  //  this.isSidenavOpen = !this.isSidenavOpen;
+  }
+
+  onPageButtonClick() {
+    console.log('Page button clicked!');
+    // Add your logic here
   }
 }

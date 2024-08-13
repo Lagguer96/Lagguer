@@ -1,12 +1,12 @@
-<mat-sidenav #drawer class="sidenav custom-sidenav" [opened]="isSidenavOpen" mode="side" color="primary">
-  <mat-toolbar >Menu</mat-toolbar>
-  <mat-nav-list class="horizontal-nav-list">
-    <a mat-list-item href="/home" >Home</a>
-    <a mat-list-item href="/information" >Informacion</a>
-    <a mat-list-item href="/maintenance-page" >Mantenimiento</a>
-  </mat-nav-list>
-</mat-sidenav>
-<mat-sidenav-container class="sidenav-container" >
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav custom-sidenav" [opened]="isSidenavOpen" mode="side" color="primary">
+    <mat-toolbar>Menu</mat-toolbar>
+    <mat-nav-list class="horizontal-nav-list">
+      <a mat-list-item href="/home">Home</a>
+      <a mat-list-item href="/information">Informacion</a>
+      <a mat-list-item href="/maintenance-page">Mantenimiento</a>
+    </mat-nav-list>
+  </mat-sidenav>
   <mat-sidenav-content>
     <mat-toolbar class="horizontal-toolbar" color="primary">
       <button
@@ -16,7 +16,8 @@
         (click)="toggleSidenav()">
         <mat-icon aria-label="Side nav toggle icon">{{ isSidenavOpen ? 'menu_open' : 'menu' }}</mat-icon>
       </button>
-      <span>Lagguer</span>
+      <span>LAGGUER</span>
+      <button class="page-button" (click)="onPageButtonClick()">Click Me</button>
     </mat-toolbar>
     <!-- Add Content Here -->
   </mat-sidenav-content>

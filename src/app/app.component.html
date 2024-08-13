@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="UTF-8">
-        <base href="../">
-        <title>Home</title>
+        <div class="border-bottom">
+            <meta charset="UTF-8">
+            <base href="../">
+            <title>Home</title>
+        </div>
         
     </head>
     
     <body>
-        <app-pagina-principal></app-pagina-principal>
-        <app-sidebar-view></app-sidebar-view>
-        <router-outlet></router-outlet>
+        <div class="border-left">
+            <app-pagina-principal></app-pagina-principal>
+        </div>
+        <div class="border-right">
+            <app-sidebar-view></app-sidebar-view>
+            <router-outlet></router-outlet>
+        </div>
+        
     </body>
 </html>

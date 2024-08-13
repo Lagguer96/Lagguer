@@ -1,8 +1,10 @@
+
+
 /* Estilos horizontal */
 .instagram-photos-container {
   display: flex; /* Utiliza un contenedor flexible (flexbox) */
-  flex-direction: row; /* Disposición horizontal */
-  gap: 10px; /* Espacio entre las fotos */
+  flex-direction:column; /* Disposición horizontal */
+  gap: 20px; /* Espacio entre las fotos */
 }
 
 .instagram-media {
